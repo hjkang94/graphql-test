@@ -31,7 +31,7 @@ const schema = buildSchema(`
     email: String
   }
 `);
-// input의 경우 User가 생기기 전에는 id라는 값이 없기 때문에 입력 전용으로 만들어 줌
+// 데이터가 생기기 전에는 id는 없는 값이라 입력 전용인 input 타입으로 객체 생성
 
 // const resolver = {
 //   users: () => {
